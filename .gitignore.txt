@@ -1,2 +1,7 @@
 *.ipynb_checkpoints
 
+# Data
+katalog_gemeinde.csv
+katalog_stoff.csv
+opendata_messstelle.csv
+opendata_messwert.csv
