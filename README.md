@@ -1,2 +1,2 @@
-# LANUV_Groundwater
-Ground water in NRW
+# OpenHyPE
+Ground water quality in NRW
