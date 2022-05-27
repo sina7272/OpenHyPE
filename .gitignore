@@ -5,3 +5,6 @@ data/katalog_gemeinde.csv
 data/katalog_stoff.csv
 data/opendata_messstelle.csv
 data/opendata_messwert.csv
+
+# QGIS
+qgis/Nitrat_concentration_last version
