@@ -1,5 +1,7 @@
 *.ipynb_checkpoints
 
+Notebook/ipynb_checkpoints
+
 # Data
 data/katalog_gemeinde.csv
 data/katalog_stoff.csv
