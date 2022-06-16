@@ -1,6 +1,7 @@
 import pandas as pd
 import sqlalchemy
 import numpy as np
+import credential as  creds 
 
 data_in_dir = r"../data/"
 
@@ -21,9 +22,10 @@ df['datum_messung'] = pd.to_datetime(
 
 df_split = np.array_split(df, 20)
 
+postgresurl = creds.URL
 
-engine = sqlalchemy.create_engine(
-    "postgresql://elwas:PelwasG21@eolab.de:5432/elwas")
+
+engine = sqlalchemy.create_engine(postgresurl)
 
 print("connect to DB")
 
