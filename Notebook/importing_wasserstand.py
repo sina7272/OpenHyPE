@@ -30,14 +30,14 @@ engine = sqlalchemy.create_engine(postgresurl)
 print("connect to DB")
 
 df_split[8].to_sql(con=engine, name="wasserstand2",
-                   schema="sina", if_exists="append", index=False)
+                   schema="Openhype", if_exists="append", index=False)
 
 # 8 is error
 
 # for x in range(9):
 
 #     df_split[x].to_sql(con=engine, name="wasserstand2",
-#                        schema="sina", if_exists="append", index=False)
+#                        schema="Openhype", if_exists="append", index=False)
 
 #     print("data {} is in DB now".format(x))
 
