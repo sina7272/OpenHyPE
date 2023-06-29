@@ -15,6 +15,8 @@ data/opendata_messwert.csv
 # credential file
 
 Notebook/credential.py 
+Dashboard/credentials.py
+Dashboard/queries_long.py
 
 # QGIS
 qgis/Nitrat_concentration_last version.qgz
